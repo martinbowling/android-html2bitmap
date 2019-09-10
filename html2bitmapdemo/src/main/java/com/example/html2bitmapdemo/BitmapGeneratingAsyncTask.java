@@ -33,7 +33,7 @@ class BitmapGeneratingAsyncTask extends AsyncTask<Void, Void, Bitmap> {
         Html2BitmapConfigurator html2BitmapConfigurator = new Html2BitmapConfigurator() {
             @Override
             public void configureWebView(WebView webview) {
-                webview.setBackgroundColor(Color.MAGENTA);
+                webview.setBackgroundColor(Color.WHITE);
                 webview.getSettings().setTextZoom(150);
             }
         };
